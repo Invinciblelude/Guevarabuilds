@@ -1,36 +1,157 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Guevara Construction - ADU Building Website
 
-## Getting Started
+A modern, responsive website for Guevara Construction, specializing in Accessory Dwelling Unit (ADU) construction and general contracting services.
 
-First, run the development server:
+## 🏗️ Features
 
+- **Responsive Design**: Beautiful UI that works seamlessly on desktop, tablet, and mobile devices
+- **Modern Stack**: Built with Next.js 15, React, TypeScript, and Tailwind CSS
+- **SEO Optimized**: Proper meta tags and semantic HTML for better search engine visibility
+- **Fast Performance**: Optimized for speed with Next.js App Router
+- **ADU Focus**: Comprehensive information about ADU construction services
+- **Contact Form**: Easy-to-use contact form for quote requests
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository or navigate to the project directory:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd guevara-adu-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
 
-## Learn More
+## 📦 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+guevara-adu-website/
+├── app/
+│   ├── layout.tsx       # Root layout with metadata
+│   ├── page.tsx         # Main homepage
+│   └── globals.css      # Global styles
+├── public/              # Static assets
+├── README.md
+└── package.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Hero Section**: Eye-catching introduction with company branding and CTAs
+2. **ADU Information**: Educational content about ADU benefits and types
+3. **Services**: Comprehensive list of construction services offered
+4. **Why Choose Us**: Key differentiators and value propositions
+5. **Contact**: Contact information and quote request form
+6. **Footer**: Additional navigation and company information
 
-## Deploy on Vercel
+## 🛠️ Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js 15](https://nextjs.org/) - React framework
+- [React](https://react.dev/) - UI library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
+- [Inter Font](https://fonts.google.com/specimen/Inter) - Modern typography
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Company Information
+
+**Guevara Construction**
+- Phone: (209) 566-3468
+- Services: General Contracting, ADU Construction, Framing, Concrete, Roofing
+- Tagline: "Building what you want from the ground up!"
+- Motto: "Customer Service with a smile!"
+
+## 🚀 Deployment
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Start Production Server
+
+```bash
+npm start
+```
+
+### Deploy to Vercel (Recommended)
+
+The easiest way to deploy this Next.js app is using [Vercel](https://vercel.com):
+
+1. Push your code to GitHub
+2. Import your repository to Vercel
+3. Vercel will automatically detect Next.js and configure the build
+4. Your site will be live in minutes!
+
+Alternatively, deploy to:
+- **Netlify**: Connect your repo and deploy
+- **AWS Amplify**: Full-stack hosting
+- **Digital Ocean**: VPS deployment
+
+## 📝 Customization
+
+### Update Contact Information
+
+Edit `app/page.tsx` and search for:
+- Phone number: `2095663468`
+- Service area
+- Business hours
+
+### Modify Colors
+
+The website uses a blue color scheme. To change:
+1. Edit Tailwind classes in `app/page.tsx`
+2. Update primary colors: `blue-600`, `blue-700`, `blue-800`
+
+### Add More Content
+
+- Add project photos to `/public` folder
+- Update services in the services section
+- Add testimonials section
+- Include portfolio/gallery
+
+## 🔧 Development Scripts
+
+```bash
+# Development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Lint code
+npm run lint
+```
+
+## 📄 License
+
+This project is proprietary and confidential.
+
+## 👨‍💼 Contact
+
+For website questions or construction inquiries, contact:
+- **Guevara Construction**
+- **Phone**: (209) 566-3468
+- **Specialization**: ADU Construction & General Contracting
+
+---
+
+Built with ❤️ for Guevara Construction
